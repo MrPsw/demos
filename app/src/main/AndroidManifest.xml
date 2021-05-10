@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pengsw.demos">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Demos">
+        <activity android:name=".activity.ClockActivity"></activity>
+        <activity android:name=".activity.StampActivity" />
+        <activity android:name=".activity.LotteryActivity" />
+        <activity android:name=".activity.DashboardActivity" />
+        <activity android:name=".activity.ShutterActivity" />
+        <activity android:name=".activity.LoadViewActivity" />
+        <activity android:name=".activity.GravitySensorActivity" />
+        <activity android:name=".activity.BaGuaActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

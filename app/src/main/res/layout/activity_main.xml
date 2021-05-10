@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_bagua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="八卦图" />
+
+    <Button
+        android:id="@+id/btn_gravity_sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重力感应" />
+
+    <Button
+        android:id="@+id/btn_load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="加载动画" />
+
+    <Button
+        android:id="@+id/btn_distribution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="六边形占比图" />
+
+    <Button
+        android:id="@+id/btn_dashboard"
+        android:text="仪表盘"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_choujiang"
+        android:text="抽奖"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_stamp"
+        android:text="印章"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_clock"
+        android:text="仿一篇flutter文章的时钟"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
